@@ -5,7 +5,6 @@ for (let i = 0; i <= arrows.length; i++) {
   })
 }
 
-
 let answer1 = document.getElementById('answer-1');
 let arrow1 = document.getElementById('arrow-1"');
 
