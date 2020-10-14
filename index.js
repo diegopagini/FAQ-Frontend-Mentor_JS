@@ -1,14 +1,15 @@
 let arrows = document.getElementsByClassName('arrow');
-for (let i = 0; i <= arrows.length; i++) {
+let answers = document.getElementsByClassName('answer');
+for (let i = 0; i < arrows.length; i++) {
   arrows[i].addEventListener("click", function(){
-    console.log("Me estan haciendo click")
+
+    let currentAnswer = answers[i].style.display;
+
+    if (currentAnswer === '' || currentAnswer === 'none') {
+      currentAnswer = 'block'
+    } else {
+      currentAnswer = 'none'
+    }
+
   })
 }
-
-let answer1 = document.getElementById('answer-1');
-let arrow1 = document.getElementById('arrow-1"');
-
-arrow1.addEventListener("click", function(){
-  answer1.style.display = "block";
-  console.log("hola");
-});

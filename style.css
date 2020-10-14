@@ -35,7 +35,7 @@
 }
 
 .img-container {
-  background-image: url(/images/bg-pattern-desktop.svg);
+  background-image: url('./images/bg-pattern-desktop.svg');
   background-position-y: -300px;
   background-position-x: -550px;
 }
@@ -113,7 +113,7 @@
     background: none;
     justify-content: center;
     align-items: center;
-    background: url(/images/bg-pattern-mobile.svg);
+    background: url('./images/bg-pattern-mobile.svg');
     background-repeat: no-repeat;
     background-size: 75%;
     background-position-x: 40px;
